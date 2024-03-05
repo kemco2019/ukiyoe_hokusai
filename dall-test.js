@@ -2,18 +2,16 @@ function formSwitch() {
     hoge = document.getElementsByName('maker');
     console.log(hoge);
     location.href="dalle-image-select.php#chapter01Link";
+    // 元画像が選択されたらそれぞれのリストを表示する
     if (document.getElementById("image_a").checked) {
-        // 好きな食べ物が選択されたら下記を実行します
         document.getElementById('yamaList').style.display = "";
         document.getElementById('namiList').style.display = "none";
         document.getElementById('hashiList').style.display = "none";
     } else if (document.getElementById("image_b").checked) {
-            // 好きな場所が選択されたら下記を実行します
         document.getElementById('yamaList').style.display = "none";
         document.getElementById('namiList').style.display = "";
         document.getElementById('hashiList').style.display = "none";
     } else if (document.getElementById("image_c").checked) {
-        // 好きな場所が選択されたら下記を実行します
         document.getElementById('yamaList').style.display = "none";
         document.getElementById('namiList').style.display = "none";
         document.getElementById('hashiList').style.display = "";
@@ -29,7 +27,7 @@ function formSwitch() {
         console.log("checked");
     }
     function Form_Submit(){
-        document.forms["addForm"].submit();  //ﾌｫｰﾑ内容を送信します。※ｻﾝﾌﾟﾙのためｺﾒﾝﾄｱｳﾄしています。
+        document.forms["addForm"].submit();  //フォーム内容を送信します。
           /*メッセージを非表示状態から表示状態へ変更します。 
           メッセージを表示してからSubmitを行うとGIFアニメが再生されないため、
           Submitしてからメッセージを表示しています。*/
