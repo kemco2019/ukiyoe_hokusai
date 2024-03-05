@@ -11,7 +11,7 @@ from PIL import Image
 prompt_in = sys.argv[1]
 origin_img = sys.argv[2]
 mask_img = sys.argv[3]
-api_key="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"
+api_key="******************" //api-keyをOpenAIでゲットして入力
 client = OpenAI(api_key=api_key)
 
 def download_file(url, dst_path):
@@ -33,7 +33,7 @@ response = client.images.edit(
 )
 print(response)
 image_url = response.data[0].url
-dst_path = 'image/dalle.png'
+dst_path = 'images/dalle.png'
 download_file(image_url, dst_path)
-print('image/dalle.png')
+print('images/dalle.png')
 print(image_url)
