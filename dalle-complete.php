@@ -48,13 +48,13 @@
         echo '</div>';
     }
 ?>
-<p><img src="hozon.png"></p>
+<p><img src="images/hozon.png"></p>
 <a href="http://127.0.0.1:8080/dalle-image-select.php" class="btn_03">戻る</a>
 </body>
 <style>
 body {
     background-color: rgba(0, 0, 0, 0.5);
-    background-image: url("H21.jpg");
+    background-image: url("images/H21.jpg");
     
 }
 p{
