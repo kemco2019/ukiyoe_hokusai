@@ -1,0 +1,14 @@
+/* 印刷をしない */
+@media print{
+    button{display:none;} 
+  }
+  
+  /* 画面表示をしない */
+  @media screen{
+    .noScreen{display:none;} 
+  }
+  
+  /* 画面表示も印刷もしない */
+  @media screen,print{
+    .noScreenPrint{display:none;}
+  }

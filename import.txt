@@ -1,0 +1,11 @@
+import openai
+import sys
+import urllib.error
+import urllib.request
+from PIL import Image
+https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css
+https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js
+https://code.jquery.com/jquery-3.2.1.slim.min.js
+https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js
+https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js
