@@ -22,7 +22,7 @@ echo ' ></p>';
 
 <a href="http://127.0.0.1:8080/dalle-image-select.php" class="btn_03">やり直す</a>
 
-<form action="https://studio.kemco.keio.ac.jp/ukiyoe2023/test.php" method="post" name="Form1" enctype="multipart/form-data">
+<form action="https://studio.kemco.keio.ac.jp/ukiyoe2023/dalle-complete.php" method="post" name="Form1" enctype="multipart/form-data">
     <input type="hidden" name="image" value=<?php echo $img_url ?> >
     <input type="submit" name="upload" value="保存" class="btn_03">
 </form>
