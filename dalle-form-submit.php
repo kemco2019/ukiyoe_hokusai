@@ -31,7 +31,7 @@ echo ' ></p>';
 <style>
 body {
     background-color: rgba(0, 0, 0, 0.5);
-    background-image: url("H21.jpg");
+    background-image: url("images/H21.jpg");
     
 }
 p{
