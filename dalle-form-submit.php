@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="dalle-form-submit.css">
+<link rel="stylesheet" href="css/dalle-form-submit.css">
 <body>
-    <p><img src="kansei.png"></p>
+    <p><img src="images/kansei.png"></p>
 <?php
 $text = $_POST['text'];
 $origin = $_POST['maker'];
